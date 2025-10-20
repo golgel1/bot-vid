@@ -2,7 +2,7 @@ import os, math, telebot
 from moviepy.editor import VideoFileClip, TextClip, CompositeVideoClip
 
 # ambil token bot dari environment variable
-BOT_TOKEN = os.getenv("TELEGRAM_TOKEN")
+BOT_TOKEN = os.getenv("8492453860:AAHAhs6pQLMCDnzdD-Gr8fsRhp37cv_Yr1U")
 bot = telebot.TeleBot(BOT_TOKEN)
 
 @bot.message_handler(content_types=['video'])
